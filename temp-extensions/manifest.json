@@ -1,0 +1,10 @@
+{
+    "manifest_version" : 3,
+    "name" : "Auto Follow/Liker",
+    "version" : "0.1",
+    "description": "extention to follow/like on tiktok or instagram",
+    "background" : {
+        "service_worker": "js/background.js"
+    },
+    "permissions" : ["contextMenus", "activeTab" , "scripting"]
+}
